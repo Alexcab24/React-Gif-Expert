@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+
+body{
+  font-family: 'Lato', sans-serif;
+  background-color: #D9F5FF;
+}
+
+.App{
+  text-align: center;
+  margin-top: 6%;  
+}
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-gifs {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction:row;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  justify-content: center;
+  padding: 0 5%;
+}
+
+.container-gifs div img {
+  /* display: flex; */
+  /* width: 400px;
+  height: 300px; */
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.card {
+  width: 400px;
+  height: 300px;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  /* box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03); */
+  display: flex;
+  flex-direction: column;
+  height: 0%;  
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.card p {
+  background-color: white;
+  flex: 1;
+  font-size: 1rem;
+  margin-top: 5px;
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 400px;
+  height: 300px;
+}
+input[type="text"] {
+  font-size: inherit;
+  padding: 12px 20px;
+  outline: none;
+  border: solid 0px #000;
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.error {
+  color: red;
+}
